@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Box Model</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    span {
+      font-size: 100px;
+    }
+
+    .box {
+      display: inline-block;
+      border: 3px solid brown;
+      margin: 30px;
+    }
+
+    .coffee {
+      background: lightcyan;
+      display: inline-block;
+      padding: 30px;
+      width: 300px;
+      height: 300px;
+    }
+    header {
+      background: cyan;
+      padding: 20px;
+    }
+  </style>
+
+  <body>
+    <header>
+      <h1>Party of boxes</h1>
+      <h2>A secret way to talk about the box model</h2>
+    </header>
+    <div class="box">
+      <span class="coffee">☕</span>
+    </div>
+    <div class="box">
+      <span class="coffee">☕</span>
+    </div>
+  </body>
+</html>
