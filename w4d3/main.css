@@ -1,0 +1,33 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Comic Sans MS";
+}
+
+header {
+  padding: 1em;
+  background: #b0b;
+}
+
+header h1 {
+  font-weight: 900;
+  text-align: center;
+  color: white;
+}
+
+main {
+  margin: 0 auto;
+  padding: 1em;
+  max-width: 900px;
+}
+
+main article {
+}
+
+main article:nth-of-type(2n) h1 {
+  color: #bada55;
+}
