@@ -4,6 +4,7 @@
 - React Dev Tools
 - Best practices for setting up a new project
 - Managing inputs, mocks and design
+- Component Driven Development
 
 # Development environment review
 
