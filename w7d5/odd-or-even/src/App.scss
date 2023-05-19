@@ -1,0 +1,87 @@
+.Header {
+  background: #b0b;
+  padding: 1em;
+  color: white;
+
+  h1 {
+    text-align: center;
+  }
+}
+
+.Player {
+  padding: 2em 1em;
+  margin: 2em 0;
+}
+
+.PlayerList {
+  padding: 0;
+  max-width: 700px;
+  margin: 0 auto;
+
+  li {
+    list-style-type: none;
+    font-weight: 700;
+    font-size: 1.4em;
+    color: #b0b;
+  }
+}
+
+.PlayerForm {
+  max-width: 700px;
+  margin: 0 auto;
+  input,
+  button {
+    font-size: 2em;
+  }
+  button {
+    border-style: solid;
+    border-color: #b0b;
+    margin-left: 0.2em;
+    background: #b0b;
+    color: white;
+    transition: all 150ms;
+    cursor: pointer;
+
+    &:hover {
+      background: white;
+      color: #b0b;
+    }
+  }
+}
+
+.Match {
+  background: #b0b;
+  padding: 1em;
+  color: white;
+}
+
+.MatchForm {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  max-width: 700px;
+  margin: 0 auto;
+  select,
+  button {
+    font-size: 2em;
+  }
+  button {
+    border-style: solid;
+    border-color: white;
+    background: #b0b;
+    color: white;
+    transition: all 150ms;
+    cursor: pointer;
+
+    &:hover {
+      background: white;
+      color: #b0b;
+    }
+  }
+}
+
+.MatchResult {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
