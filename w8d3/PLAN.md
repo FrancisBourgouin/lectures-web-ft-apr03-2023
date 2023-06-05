@@ -17,6 +17,8 @@ const repoInfo = {
 
 Accessible through : https://api.github.com/repos/OWNER/REPO/commits
 
+Sample Data : https://api.github.com/repos/FrancisBourgouin/lectures-web-ft-apr03-2023/commits
+
 ```jsx
 const repoCommit = {
   author: "",

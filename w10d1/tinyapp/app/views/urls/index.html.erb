@@ -1,0 +1,24 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Urls</h1>
+
+<table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Short URL</th>
+          <th scope="col">Long URL</th>
+          <th scope="col">Description</th>
+          <th scope="col">View and Edit</th>
+        </tr>
+      </thead>
+      <tbody>
+
+  <% @urls.each do |url| %>
+    <%= render url %>
+
+  <% end %>
+
+      </tbody>
+    </table>
+
+<%= link_to "New url", new_url_path %>
